@@ -15,7 +15,7 @@ function App() {
             <div className='wrapper'>
                 <header>
                     <img className='-z-10' src={heroImg} alt="hero image"/>
-                    <h1>Find <span className='text-lime-300'> Movies </span> you'll Enjoy Without the Hassle</h1>
+                    <h1>Find all <span className='text-lime-300'> Movies </span> you'll Enjoy Without the Hassle</h1>
                 </header>
                 <Search searchTerm = {searchTerm} setSerachTerm={setSerachTerm}/>
             </div>
